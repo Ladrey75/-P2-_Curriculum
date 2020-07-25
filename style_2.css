@@ -55,7 +55,7 @@ span.underline {
   background-color: #feca07;
   color: #404040;
 }
-#info article title {
+#info article h6 {
   background-color: #404040;
   text-transform: uppercase;
   display: block;
@@ -86,16 +86,19 @@ span.underline {
 #loisir-icone i {
   border: solid #404040 2px;
   border-radius: 300%;
-  height: 2.5em;
-  width: 2.5em;
+  height: 2em;
+  width: 2em;
+  font-size: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 /* course*/
-/*section {
-   padding-left: 7%;*/
+/*style p de section*/
+section p {
+  font-weight: 350;
+}
 
 /*Mise en forme H2*/
 h2 {
@@ -114,7 +117,7 @@ h2 {
   margin-right: 15px;
 }
 section .fa-circle {
-  font-size: 12px;
+  font-size: 16px;
 }
 /*style col date*/
 section .date {
@@ -134,7 +137,7 @@ section .text {
 h3 {
   text-transform: uppercase;
   color: #404040;
-  font-size: larger;
+  font-size: 18px;
   font-weight: bolder;
   padding-bottom: 0.3em;
 }
@@ -145,6 +148,9 @@ h4 {
   color: #404040;
   padding-bottom: 0.3em;
   font-size: 1rem;
+}
+span.italic {
+  font-style: italic;
 }
 
 /*breakpoint-xs: 0;
@@ -171,6 +177,7 @@ h4 {
   #presentation h1 {
     text-align: center;
     color: #404040;
+    margin-top: 2px;
   }
   #presentation p {
     text-align: center;
